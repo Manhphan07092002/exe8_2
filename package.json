@@ -1,0 +1,33 @@
+{
+  "name": "node-express-axios",
+  "version": "1.0.0",
+  "description": "Node express",
+  "main": "functions/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon functions/ ",
+    "start": "node functions/",
+    "start:dev": "./node_modules/nodemon/bin/nodemon.js functions/index.js",
+    "start:prod": "./node_modules/nodemon/bin/nodemon.js functions/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinivastamada/node-express-axios.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "axios"
+  ],
+  "author": "Srinivas Tamada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srinivastamada/node-express-axios/issues"
+  },
+  "homepage": "https://github.com/srinivastamada/node-express-axios#readme",
+  "dependencies": {
+   
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
